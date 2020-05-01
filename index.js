@@ -53,4 +53,4 @@ const junwonInfo = {
   ],
 };
 
-console.log(junwonInfo);
+console.log(junwonInfo.favFood[1].fatty);
