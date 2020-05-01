@@ -20,3 +20,16 @@ const watt = 666;
 Float
 const wat = 55.1;
 */
+
+//Array
+const mon = "Mon";
+const tue = "Tue";
+const wed = "Wed";
+const thu = "Thu";
+const fri = "Fri";
+const sat = "Sat";
+const sun = "Sun";
+
+const daysOfWeek = ["Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"];
+
+console.log(daysOfWeek[3]);
