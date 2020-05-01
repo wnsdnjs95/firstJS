@@ -33,3 +33,24 @@ const sun = "Sun";
 const daysOfWeek = ["Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"];
 
 console.log(daysOfWeek[3]);
+
+//Object
+const junwonInfo = {
+  name: "Junwon",
+  age: 26,
+  gender: "Male",
+  isHandsome: true,
+  favMovies: ["Parasite", "LOTR", "Oldboy"],
+  favFood: [
+    {
+      name: "Ramen",
+      fatty: false,
+    },
+    {
+      name: "Cheeseburger",
+      fatty: true,
+    },
+  ],
+};
+
+console.log(junwonInfo);
