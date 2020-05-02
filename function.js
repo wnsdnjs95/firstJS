@@ -31,3 +31,7 @@ const calculatorResult = {
   power: calculator.power(3, 3),
 };
 console.log(calculatorResult);
+
+const title = document.getElementById("title");
+
+title.innerHTML = "Hi! From JS";
