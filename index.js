@@ -54,3 +54,13 @@ const junwonInfo = {
 };
 
 console.log(junwonInfo.favFood[1].fatty);
+
+const title = document.querySelector("#title");
+
+function handleClick() {
+  title.style.color = "";
+}
+
+title.addEventListener("click", handleClick);
+// handleResize는 내가 원할 때 호출하는 코드
+// handleResize()는 바로 함수를 호출하는 코드
