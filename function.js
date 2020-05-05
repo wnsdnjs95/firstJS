@@ -30,4 +30,3 @@ const calculatorResult = {
   divide: calculator.divide(2, 2),
   power: calculator.power(3, 3),
 };
-console.log(calculatorResult);

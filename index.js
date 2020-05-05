@@ -6,8 +6,6 @@ var a = 221;
 var b = a - 5;
 a = 4;
 
-console.log(b, a);
-
 /* String
 const what = "Junwon";
 
@@ -32,8 +30,6 @@ const sun = "Sun";
 
 const daysOfWeek = ["Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"];
 
-console.log(daysOfWeek[3]);
-
 //Object
 const junwonInfo = {
   name: "Junwon",
@@ -53,14 +49,33 @@ const junwonInfo = {
   ],
 };
 
-console.log(junwonInfo.favFood[1].fatty);
-
 const title = document.querySelector("#title");
 
+const CLICKED_CLASS = "clicked";
+
 function handleClick() {
-  title.style.color = "";
+  title.classList.toggle(CLICKED_CLASS);
+  // const hasClass = title.classList.contains(CLICKED_CLASS);
+  // if (hasClass) {
+  //   title.classList.remove(CLICKED_CLASS);
+  // } else {
+  //   title.classList.add(CLICKED_CLASS);
+  // } 위와 같은 것
 }
 
-title.addEventListener("click", handleClick);
+function init() {
+  title.addEventListener("click", handleClick);
+}
+
+init();
 // handleResize는 내가 원할 때 호출하는 코드
 // handleResize()는 바로 함수를 호출하는 코드
+
+// if (age >= 18 && age <= 21) {
+//   console.log("you can drink but you should not");
+// } else if (age > 21) {
+//   console.log("you can drink");
+// } else {
+//   console.log("you cant drink");
+// }
+// !== 같지 않다면
