@@ -1,4 +1,3 @@
-const API_KEY = "324f7227c86384c981eeb03afc5f25a1";
 const toDoForm = document.querySelector(".js-toDoForm"),
   toDoInput = toDoForm.querySelector("input"),
   toDoList = document.querySelector(".js-toDoList");
