@@ -1,3 +1,4 @@
+const API_KEY = "324f7227c86384c981eeb03afc5f25a1";
 const toDoForm = document.querySelector(".js-toDoForm"),
   toDoInput = toDoForm.querySelector("input"),
   toDoList = document.querySelector(".js-toDoList");
@@ -50,7 +51,7 @@ function handleSubmit(event) {
 
 function loadToDos() {
   const loadedToDos = localStorage.getItem(TODOS_LS);
-  if (toDos !== null) {
+  if (loadedToDos !== null) {
     const parsedToDos = JSON.parse(loadedToDos);
     parsedToDos.forEach(function (toDo) {
       paintToDo(toDo.text);
